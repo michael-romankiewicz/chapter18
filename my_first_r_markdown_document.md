@@ -3,33 +3,22 @@ Test drive R Markdown
 Mike Romankiewicz
 2026-04-08
 
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
+I wrote this sentence for all the people I love.
 
 ``` r
-summary(cars)
+print("Hello World!")
 ```
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+    ## [1] "Hello World!"
 
-## Including Plots
+``` r
+print("I love affogato and jigsaw puzzles")
+```
 
-You can also embed plots, for example:
+    ## [1] "I love affogato and jigsaw puzzles"
 
-![](my_first_r_markdown_document_files/figure-gfm/pressure-1.png)<!-- -->
+``` r
+print("Why not?")
+```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+    ## [1] "Why not?"
